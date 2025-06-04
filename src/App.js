@@ -8,13 +8,14 @@ import Class  from './Components/Class';
 import Student from './Components/Student';
 import Employee from './Components/Employee';
 import Customer from './Components/Customer';
+import Click from './Components/Click';
 
 let a ="Ravi"
 function App() {
   return (
     <div className="App">
-      <Customer name="Ravi" age="23"/>
-      
+      <Click/>
+
     </div>
   );
 }
